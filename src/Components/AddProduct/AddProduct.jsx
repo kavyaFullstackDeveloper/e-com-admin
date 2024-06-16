@@ -33,7 +33,6 @@ const [productDetails, setProductDetails] = useState({
         method:'POST',
         headers:{
             Accept:'application/json',
-
         },
         body:formData, 
     }).then((resp)=>resp.json()).then((data)=>{responseData=data});
